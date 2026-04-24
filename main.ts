@@ -1,2 +1,3 @@
-basic.showString("Hello!")
-pause(1000)
+input.onButtonPressed(Button.A, function () {
+    basic.showString("Hello!")
+})
